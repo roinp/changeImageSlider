@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.active {
+    background-color: black;
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.buttons {
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+.buttons div {
+    width: 15px;
+    height: 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 3px;
+}
+
+.images {
+    display: none;
+}
