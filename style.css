@@ -9,15 +9,27 @@
 }
 
 .image {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     margin: 0 auto;
+    position: relative;
+    
+
 }
 
 .image img {
     height: 100%;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.image .show {
+    opacity: 1;
 }
 
 .buttons {
@@ -38,4 +50,8 @@
 
 .images {
     display: none;
+}
+
+.trButton {
+    margin-left: 450px;
 }
