@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color:lightgray;
+}
 .active {
-    background-color: black;
+    background-color: goldenrod;
 }
 
 .image {
@@ -42,7 +45,7 @@
 .buttons div {
     width: 15px;
     height: 15px;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 50%;
     display: inline-block;
     margin: 3px;
